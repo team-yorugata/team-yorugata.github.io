@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YORUGATA | Team Portfolio</title>
+    <meta
+      name="description"
+      content="YORUGATAのチームポートフォリオ。プロダクト、メンバー、活動方針を紹介する静的サイトです。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow background-glow-left"></div>
+    <div class="background-glow background-glow-right"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top">YORUGATA</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#works">Works</a>
+          <a href="#members">Members</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Team Portfolio</p>
+            <h1>夜に考えて、朝に形にする。</h1>
+            <p class="hero-copy">
+              YORUGATAは、アイデアを素早く検証しながら、デザインと開発の両面で価値ある体験をつくるチームです。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#works">制作実績を見る</a>
+              <a class="button button-secondary" href="#contact">問い合わせる</a>
+            </div>
+          </div>
+          <div class="hero-card card">
+            <p class="card-label">Focus</p>
+            <ul class="focus-list">
+              <li>Webプロダクトの企画・設計</li>
+              <li>ブランドとUIの一貫設計</li>
+              <li>スピーディーな検証と改善</li>
+            </ul>
+            <div class="hero-stats">
+              <div>
+                <span>03</span>
+                <p>Core Members</p>
+              </div>
+              <div>
+                <span>10+</span>
+                <p>Projects</p>
+              </div>
+              <div>
+                <span>∞</span>
+                <p>Ideas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section-grid">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>少人数で、深く、速く。</h2>
+          </div>
+          <div>
+            <p class="section-copy">
+              私たちは、課題の本質を見つけて、小さく作り、素早く学ぶことを大切にしています。プロダクト開発、LP制作、UI改善、運用までを一気通貫で進めます。
+            </p>
+          </div>
+        </div>
+
+        <div class="container cards-grid">
+          <article class="card feature-card">
+            <p class="card-label">01</p>
+            <h3>Strategy</h3>
+            <p>目的から逆算した情報設計とロードマップ策定。</p>
+          </article>
+          <article class="card feature-card">
+            <p class="card-label">02</p>
+            <h3>Design</h3>
+            <p>見た目だけでなく、伝わり方まで設計するUI/UX。</p>
+          </article>
+          <article class="card feature-card">
+            <p class="card-label">03</p>
+            <h3>Build</h3>
+            <p>静的サイトからアプリまで、必要十分な技術で構築。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="works">
+        <div class="container section-heading">
+          <div>
+            <p class="eyebrow">Works</p>
+            <h2>最近の取り組み</h2>
+          </div>
+          <p class="section-copy">
+            実案件名に差し替えやすいように、カードベースで整理しています。
+          </p>
+        </div>
+
+        <div class="container cards-grid works-grid">
+          <article class="card work-card">
+            <span class="tag">Web App</span>
+            <h3>Dashboard Platform</h3>
+            <p>チームの進行管理と可視化を支えるダッシュボード設計。</p>
+            <a href="#contact">詳細を問い合わせる</a>
+          </article>
+          <article class="card work-card">
+            <span class="tag">Landing Page</span>
+            <h3>Product Launch Site</h3>
+            <p>短期間で公開し、検証しやすい構成に最適化したLP制作。</p>
+            <a href="#contact">詳細を問い合わせる</a>
+          </article>
+          <article class="card work-card">
+            <span class="tag">Branding</span>
+            <h3>Visual Identity Refresh</h3>
+            <p>ロゴ、配色、コンポーネントの再設計によるブランド改善。</p>
+            <a href="#contact">詳細を問い合わせる</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="members">
+        <div class="container section-heading">
+          <div>
+            <p class="eyebrow">Members</p>
+            <h2>チームメンバー</h2>
+          </div>
+          <p class="section-copy">
+            名前、肩書き、SNSリンクなどに差し替えやすいテンプレートです。
+          </p>
+        </div>
+
+        <div class="container cards-grid members-grid">
+          <article class="card member-card">
+            <h3>Kazuhiro</h3>
+            <p class="member-role">Planner / Developer</p>
+            <p>企画から実装まで、仮説検証を素早く回す役割。</p>
+          </article>
+          <article class="card member-card">
+            <h3>Member Name</h3>
+            <p class="member-role">Designer</p>
+            <p>ブランドの雰囲気と使いやすさを両立する設計を担当。</p>
+          </article>
+          <article class="card member-card">
+            <h3>Member Name</h3>
+            <p class="member-role">Engineer</p>
+            <p>開発基盤づくりと品質担保、運用改善を担当。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-panel card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>一緒につくる案件、募集中です。</h2>
+            <p class="section-copy">
+              GitHub、X、メール、フォームなど、運用しやすい導線に差し替えてください。
+            </p>
+          </div>
+          <div class="contact-links">
+            <a class="button button-primary" href="mailto:hello@example.com">hello@example.com</a>
+            <a class="button button-secondary" href="https://github.com/team-yorugata">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="current-year"></span> YORUGATA</p>
+        <p>Built as a simple static portfolio site.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
