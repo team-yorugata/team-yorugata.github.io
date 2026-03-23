@@ -7,7 +7,6 @@
 - `index.html` : ページ本体
 - `styles.css` : デザイン
 - `script.js` : フッター年表示の軽い補助
-- `assets/achievements/` : 実績セクションで使う画像
 
 ## 変更しやすいポイント
 
@@ -21,7 +20,7 @@
 
 `index.html` の `Achievements` セクションは、次の2段構成にしています。
 
-- 代表事例を写真つきで見せる `Featured Project`
+- 代表事例を文章で見せる `Featured Project`
 - 受賞歴や作品を並べる `Achievements` カード一覧
 
 差し替えやすい項目は次の通りです。
@@ -31,7 +30,6 @@
 - 作品名
 - 担当範囲
 - 成果
-- 画像
 - 外部リンク
 
 ## 公開方法
