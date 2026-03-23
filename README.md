@@ -7,7 +7,6 @@
 - `index.html` : ページ本体
 - `styles.css` : デザイン
 - `script.js` : フッター年表示の軽い補助
-- `assets/branding/` : ロゴなどのブランド素材
 
 ## 変更しやすいポイント
 
